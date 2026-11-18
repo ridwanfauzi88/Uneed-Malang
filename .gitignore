@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+website_user/instance/*.sqlite3
+website_user/instance/*.db
+instance/*.tmp
+
+# Local developer-controlled website maintenance state
+instance/site_config.json
+instance/membership_config.json
